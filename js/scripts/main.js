@@ -3,6 +3,14 @@ var slide_thumbnail = new Swiper(".slide-thumbnail", {
   direction: 'vertical',
   spaceBetween: 20,
   watchSlidesProgress: true,
+  breakpoints: {
+    320: {
+      direction: 'horizontal',
+    },
+/*     1150: {
+      direction: 'vertical',
+    } */
+  }
 });
 
 var slide_hero = new Swiper(".slide-principal", {
